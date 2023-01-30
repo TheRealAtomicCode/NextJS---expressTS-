@@ -1,0 +1,19 @@
+{
+  "name": "discount-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devAll": "concurrently \"cd client && npm run dev\" \"cd server && nodemon --exec ts-node-esm src/index.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealAtomicCode/Discount-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealAtomicCode/Discount-app/issues"
+  },
+  "homepage": "https://github.com/TheRealAtomicCode/Discount-app#readme"
+}
